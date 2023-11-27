@@ -10,3 +10,4 @@
 - [x] variables [바로가기](https://github.com/Bambiru/core_javascript/blob/01.core/client/chapter/core/02.variables.js)
 - [x] strictMode [바로가기](https://github.com/Bambiru/core_javascript/blob/01.core/client/chapter/core/03.strictMode.js)
 - [x] globalThis [바로가기](https://github.com/Bambiru/core_javascript/blob/01.core/client/chapter/core/04.globalThis.js)
+- [x] legacyVar [바로가기](https://github.com/Bambiru/core_javascript/blob/01.core/client/chapter/core/05.legacyVar.js)
