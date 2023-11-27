@@ -7,5 +7,5 @@
 
 ### Basic
 - [x] Code Structure [바로가기](https://github.com/Bambiru/core_javascript/blob/01.core/client/chapter/core/01.codeStructure.js)
-- [x] Code Structure [바로가기](https://github.com/Bambiru/core_javascript/blob/01.core/client/chapter/core/02.variables.js)
-- [ ] Code Structure [바로가기](http://naver.com)
+- [x] variables [바로가기](https://github.com/Bambiru/core_javascript/blob/01.core/client/chapter/core/02.variables.js)
+- [x] strictMode [바로가기](https://github.com/Bambiru/core_javascript/blob/01.core/client/chapter/core/03.strictMode.js)
