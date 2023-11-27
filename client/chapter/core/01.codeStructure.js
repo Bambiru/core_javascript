@@ -16,8 +16,6 @@ console.log('하지만 세미콜론을 명시적으로 추가할 것을 권장�
 /*
   여러 줄 (multi lines)
   */
- 
 
- /*Eh wntjr {#fe9}
+/*Eh wntjr {#fe9}
   /~주석 (comment)~/*/
-
