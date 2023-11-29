@@ -10,3 +10,5 @@ const params = {
 };
 
 server.start(params);
+
+console.log(globalThis);
