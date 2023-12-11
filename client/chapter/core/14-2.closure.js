@@ -18,7 +18,7 @@ const ufo = earth();
 
 const button = document.querySelector('button');
 
-const handleClick = (() => {
+/* const handleClick = (() => {
   let isClicked = false; // 전역이 훼손되기때문에 안에 넣어주는 게 좋다.
   return function () {
     if (!isClicked) {
@@ -29,9 +29,37 @@ const handleClick = (() => {
 
     isClicked = !isClicked;
   };
-})();
+})(); */
+/* function handleClick() {
+  let isClicked = false; // 전역이 훼손되기때문에 안에 넣어주는 게 좋다.
+  return () => {
+    if (!isClicked) {
+      document.body.style.background = 'orange';
+    } else {
+      document.body.style.background = 'white';
+    }
 
-button.addEventListener('click', handleClick); // 이벤트 생성
+    isClicked = !isClicked;
+  };
+}
+
+document.querySelector('button').addEventListener('click', handleClick()); // 이벤트 생성 */
+function handleClick() {
+  let isClicked = false;
+
+  return () => {
+    if (!isClicked) {
+      document.body.style.background = 'orange';
+    } else {
+      document.body.style.background = 'white';
+    }
+
+    isClicked = !isClicked;
+  };
+}
+document.querySelector('button').addEventListener('click', handleClick());
+
+// button.addEventListener('click', handleClick); // 이벤트 생성
 
 /* setTimeout(() => {
   button.removeEventListener('click', handleClick); // 이벤트 제거

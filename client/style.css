@@ -1,6 +1,35 @@
 body {
   display: flex;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
   height: 100vh;
+  overflow: hidden;
+}
+
+span {
+  display: inline-block;
+}
+
+.menu-button {
+  position: fixed;
+  right: 1rem;
+  top: 1rem;
+  z-index: 10;
+  font-size: 2.5rem;
+
+  text-decoration: none;
+}
+
+.menu {
+  width: 50vw;
+  height: 100vh;
+  background: orange;
+  position: absolute;
+  right: -50vw;
+  top: 0;
+  transition: all 0.5s;
+}
+
+.menu.is--active {
+  transform: translateX(-100%);
 }
