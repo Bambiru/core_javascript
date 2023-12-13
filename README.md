@@ -51,4 +51,54 @@
 - [x] function (함수선언문) [바로가기](https://github.com/bambiru/core_javascript/blob/01.core/client/chapter/core/11-1.function.js)
 - [x] function (함수표현식) [바로가기](https://github.com/bambiru/core_javascript/blob/01.core/client/chapter/core/11-2.function.js)
 - [x] function (화살표함수) [바로가기](https://github.com/bambiru/core_javascript/blob/01.core/client/chapter/core/11-3.function.js)
-- [ ] function (재귀함수) [바로가기](https://github.com/bambiru/core_javascript/blob/01.core/client/chapter/core/11-4.function.js)
+- [x] function (재귀함수) [바로가기](https://github.com/bambiru/core_javascript/blob/01.core/client/chapter/core/11-4.function.js)
+
+## Object
+
+- [x] object (객체) [바로가기](https://github.com/bambiru/core_javascript/blob/01.core/client/chapter/core/12-1.object.js)
+- [ ] object (copy by reference) [바로가기](https://github.com/bambiru/core_javascript/blob/01.core/client/chapter/core/12-2.object.js)
+- [ ] object (garbage collection) [바로가기](https://github.com/bambiru/core_javascript/blob/01.core/client/chapter/core/12-3.object.js)
+- [ ] object (method and this) [바로가기](https://github.com/bambiru/core_javascript/blob/01.core/client/chapter/core/12-4.object.js)
+
+---
+
+## Prototype
+
+- [x] prototype (프로토타입의 상속) [바로가기](https://github.com/bambiru/core_javascript/blob/01.core/client/chapter/core/13.prototype.js)
+- [x] prototype (클래스) [바로가기](https://github.com/bambiru/core_javascript/blob/01.core/client/chapter/core/13.classes.js)
+
+---
+
+## Closure
+
+- [x] Closure (클로저) [바로가기](https://github.com/bambiru/core_javascript/blob/01.core/client/chapter/core/14-1.closure.js)
+- [x] Closure (시나리오) [바로가기](https://github.com/bambiru/core_javascript/blob/01.core/client/chapter/core/14-2.closure.js)
+
+---
+
+## OptionalChainning & wrapper
+
+- [x] OptionalChainning(옵셔널체이닝) [바로가기](https://github.com/bambiru/core_javascript/blob/01.core/client/chapter/core/15.Optional.js)
+- [x] Wrapper(wrapper object) [바로가기](https://github.com/bambiru/core_javascript/blob/01.core/client/chapter/core/16.wrapper.js)
+
+---
+
+## Number
+
+- [x] Number(number Type) [바로가기](https://github.com/bambiru/core_javascript/blob/01.core/client/chapter/core/17.number.js)
+
+---
+
+## String
+
+- [x] String(string Type) [바로가기](https://github.com/bambiru/core_javascript/blob/01.core/client/chapter/core/18.string.js)
+
+---
+
+## Array
+
+- [x] Array(array Type) [바로가기](https://github.com/bambiru/core_javascript/blob/01.core/client/chapter/core/19.array.js)
+
+---
+
+## 예외처리
