@@ -42,5 +42,4 @@ const template = `<li class="list"> 영화보기 </li>`;
 // - "beforeend" – elem의 마지막 자식 요소 바로 다음에 html을 삽입
 // - "afterend" – elem 바로 다음에 html을 삽입
 
-
 // insertLast('h1', template);
