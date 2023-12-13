@@ -10,4 +10,4 @@
 학습 자료는 해당 브랜치로 이동 후 확인할 수 있습니다.
 
 1. JavaScript Core Branch [바로가기](https://github.com/Bambiru/core_javascript/tree/01.core)
-2. JavaScript Dom Branch [바로가기](https://www.naver.com)
+2. JavaScript Dom Branch [바로가기](https://github.com/Bambiru/core_javascript/tree/02.dom)
