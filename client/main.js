@@ -4,24 +4,54 @@
 // import { getNode } from './lib/dom/getNode.js';
 // import { insertLast } from './lib/dom/insert.js';
 // import clearContents from './lib/dom/clear.js';
-import { getNode, clearContents, insertLast } from './lib/index.js';
+import { getNode, clearContents, insertLast, getNodes } from './lib/index.js';
 
-const first = getNode('#firstNumber');
-const second = getNode('#secondNumber');
+function phase1() {
+  const first = getNode('#firstNumber');
+  const second = getNode('#secondNumber');
+  const result = getNode('.result');
+  const clear = getNode('#clear');
+
+  //1. input value 값 가져오기
+
+  function handleInput() {
+    const firstValue = +first.value;
+    const secondValue = +second.value;
+    const total = firstValue + secondValue;
+
+    clearContents(result);
+    insertLast(result, total);
+  }
+
+  function handleClear(e) {
+    e.preventDefault();
+    clearContents(first);
+    clearContents(second);
+    result.textContent = '-';
+  }
+  first.addEventListener('input', handleInput);
+  second.addEventListener('input', handleInput);
+  clear.addEventListener('click', handleClear);
+  //2. 두 수의 합 더하기
+  //3. 합계 랜더링 하기
+}
+
+// 이벤트 위임 처리
+const calculator = getNode('.calculator');
 const result = getNode('.result');
+const clear = getNode('#clear');
+const numberInputs = Array.from(getNodes('input:not(#clear)'));
 
-//1. input value 값 가져오기
-
-function handleInput() {
-  const firstValue = +first.value;
-  const secondValue = +second.value;
-  const total = firstValue + secondValue;
+function hadnleInput() {
+  const total = numberInputs.reduce((acc, cur) => acc + Number(cur.value), 0);
 
   clearContents(result);
   insertLast(result, total);
 }
-
-first.addEventListener('input', handleInput);
-second.addEventListener('input', handleInput);
-//2. 두 수의 합 더하기
-//3. 합계 랜더링 하기
+function handleClear(e) {
+  e.preventDefault();
+  numberInputs.forEach(clearContents);
+  result.textContent = '-';
+}
+calculator.addEventListener('input', hadnleInput);
+clear.addEventListener('click', handleClear);
