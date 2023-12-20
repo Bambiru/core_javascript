@@ -1,3 +1,1 @@
-const a = 'hello';
-
-console.log(navigator.language);
+import {} from './lib/index.js';
